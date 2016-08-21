@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>reveal.js</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/iteo.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/tomorrow.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<section data-markdown="content/title.md"></section>
+				<section>
+					<section data-markdown="content/agenda/agenda-general.md"></section>
+					<section data-markdown="content/agenda/agenda-lectures-1.md"></section>
+					<section data-markdown="content/agenda/agenda-lectures-2.md"></section>
+					<section data-markdown="content/agenda/agenda-workshops.md"></section>
+				</section>
+				<section data-background="#4fcce8">
+					<section data-markdown="content/tools/tools-1.md"></section>
+					<section data-markdown="content/tools/tools-2.md"></section>
+				</section>
+				<section data-background="#31cfce">
+					<section data-markdown="content/tpl/title.md"></section>
+					<section data-markdown="content/tpl/async.md"></section>
+					<section data-markdown="content/tpl/parallel.md"></section>
+				</section>
+				<section data-background="rgba(52, 205, 254, 0.8)">
+					<section data-markdown="content/data-types/data-types-1.md"></section>
+					<section data-markdown="content/data-types/data-types-2.md"></section>
+					<section data-markdown="content/data-types/data-types-3.md"></section>
+					<section data-markdown="content/data-types/data-types-4.md"></section>
+					<section data-markdown="content/data-types/data-types-5.md"></section>
+				</section>
+				<section data-background="rgba(25, 239, 188, 0.8)">
+					<section data-markdown="content/destructuring/destructuring-1.md"></section>					
+					<section data-markdown="content/destructuring/destructuring-2.md"></section>					
+					<section data-markdown="content/destructuring/destructuring-3.md"></section>					
+					<section data-markdown="content/destructuring/destructuring-4.md"></section>					
+					<section data-markdown="content/destructuring/destructuring-5.md"></section>					
+					<section data-markdown="content/destructuring/destructuring-6.md"></section>					
+					<section data-markdown="content/destructuring/destructuring-7.md"></section>					
+				</section>
+				<section>
+					<section data-markdown="content/misc/scope.md"></section>
+					<section data-markdown="content/misc/foreach.md"></section>
+					<section data-markdown="content/misc/demo.md"></section>					
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+				math: {
+					mathjax: 'http://cdn.mathjax.org/mathjax/latest/MathJax.js',
+					config: 'TeX-AMS_HTML-full' // See http://docs.mathjax.org/en/latest/config-files.html
+				},
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/math/math.js', async: true },
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
