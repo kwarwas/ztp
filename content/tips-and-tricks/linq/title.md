@@ -1,0 +1,5 @@
+## LINQ
+
+- IQueryable<>
+- IEnumerable<>
+- ICollection<>

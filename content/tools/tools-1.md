@@ -1,5 +1,7 @@
-# Warsztat
+# Tools
 
 - Microsoft Visual Studio
-- Microsoft Visual Studio Extensions
-  - Web Essentials
+- JetBrains Rider
+- Microsoft Visual Studio Code
+- ReSharper
+- NCrunch

@@ -1,6 +1,6 @@
-# Warsztat
+# Tools
 
-- Microsoft Visual Studio Code, Sublime Text, Bracket, Atom, etc.
-- Node & npm
-- Kompilator TypeScript: tsc
-- TypeScript Definition Manager: typings
+- Microsoft SQL Server [Express]
+- Microsoft SQL Server Management Studio
+- MongoDB
+- Robomongo
