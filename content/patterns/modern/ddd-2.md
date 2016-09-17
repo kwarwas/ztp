@@ -1,6 +1,5 @@
 ## Domain-Driven Design (DDD) 
 
-
 1. Ubiquitous language
     - Bridges the gap between developers and experts
 - Bounded context
