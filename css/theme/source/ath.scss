@@ -20,7 +20,7 @@
 $backgroundColor: #203D6A;
 
 $mainFont: 'Open Sans', sans-serif;
-$linkColor: #D01B22;
+$linkColor: #aaa;
 $linkColorHover: lighten( $linkColor, 20% );
 $headingFont: 'Raleway', Impact, sans-serif;
 $headingTextShadow: none;
@@ -37,4 +37,5 @@ $mainFontSize: 30px;
     font-size: 22px;
     line-height: normal;
     //width: 130%;
+    font-weight: bold;
 }

@@ -1,6 +1,6 @@
 ## Good or bad code?
 
-    IEnumerable<Person> Method(ICollection<Person> collection)
+    IEnumerable<Person> Method(ICollection<Person> collection) 
     {
         foreach (var item in collection)
         {
