@@ -6,4 +6,4 @@
     - message broker
     - actor model
 - Command and Query Responsibility Segregation (CQRS) Pattern
-- ...
+- and more
