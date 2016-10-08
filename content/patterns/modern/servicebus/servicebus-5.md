@@ -7,4 +7,4 @@ Examples of message broker software:
 - Microsoft Azure Service Bus
 - Microsoft BizTalk Server
 - Oracle Message broker
-- ...
+- and more
