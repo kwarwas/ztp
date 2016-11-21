@@ -1,3 +1,3 @@
 ## Monolithic architecture problem
 
-![Monolithic architecture problem](/content/patterns/modern/monolithic.png)
+![Monolithic architecture problem](./content/patterns/modern/monolithic.png)

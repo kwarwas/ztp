@@ -1,3 +1,3 @@
 ## Microservices
 
-![Microservices](/content/patterns/modern/microservices/microservices.png)
+![Microservices](./content/patterns/modern/microservices/microservices.png)

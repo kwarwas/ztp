@@ -1,3 +1,3 @@
 ## DDD - bounded context
 
-![bounded context](/content/patterns/modern/ddd/bounded-context.png)
+![bounded context](./content/patterns/modern/ddd/bounded-context.png)
