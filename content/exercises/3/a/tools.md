@@ -3,3 +3,4 @@
 
 - XLinq
 - Serilog
+- .NET Core

@@ -1,4 +1,4 @@
-## Enduro Trails Analizer
+## Enduro Trails Analyzer
 
 Wyznaczyć:
 - Distance:
