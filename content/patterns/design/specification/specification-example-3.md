@@ -5,7 +5,7 @@ Przykładowa implementacja z [LinqKit](https://github.com/scottksmith95/LINQKit)
     public class FilterSpecification : Specification<Person> {
         private readonly string _filter;
 
-        public PersonFilterSpecification(string filter) {
+        public FilterSpecification(string filter) {
             _filter = filter;
         }
 

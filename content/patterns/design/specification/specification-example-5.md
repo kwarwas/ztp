@@ -7,11 +7,11 @@ Przykładowa implementacja z [LinqKit](https://github.com/scottksmith95/LINQKit)
     {
         using (var context = new PeopleContext())
         {
-            var filter = new FilterSpecification(filter)
+            var specification = new FilterSpecification(filter)
                 .And(new OlderThanSpecification(age));
 
             return await context.People
-                .Where(filter.ToExpression())
+                .Where(specification.ToExpression())
                 .ToArrayAsync();
         }
     }
