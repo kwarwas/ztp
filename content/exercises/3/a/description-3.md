@@ -3,6 +3,7 @@
 Wyznaczyć:
 - Elevation:
     - Minimum elevation
+    - Maximum elevation
     - Average elevation
     - Total climbing
     - Total descent
