@@ -1,0 +1,4 @@
+## Message - types
+
+- Commands
+- Events
