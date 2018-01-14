@@ -1,0 +1,3 @@
+## CQRS
+
+CQRS wywodzi się z CQS (ang. Command Query Separation), która została przedstawiona przez Bertranda Meyera (twórcę języka Eiffel) w latach ’80 ubiegłego wieku. Blisko po dwóch dekadach od powstania CQS, dwóch ekspertów Udi Danah oraz Greg Young określili kilka nieskomplikowanych reguł, włączając w nie kluczową zasadę CQS polegającą na oddzieleniu metod na te, które zmieniały coś w systemie oraz te, które zwracały informacje nie modyfikując przy tym żadnych danych.W efekcie, uprościli oni pracę nad rozbudowanymi systemami informatycznymi tworząc CQRS.

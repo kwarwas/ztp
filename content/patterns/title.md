@@ -1,1 +1,0 @@
-# Wzorce architektoniczne i projektowe
