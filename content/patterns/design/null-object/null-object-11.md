@@ -6,7 +6,7 @@ Static interface to dynamic implementation (duck casting)
 
     class NullLogger<TInterface> : DynamicObject where TInterface : class
     {
-        public static TInterface Instance => new NullLog<TInterface>().ActLike<TInterface>();
+        public static TInterface Instance => new NullLogger<TInterface>().ActLike<TInterface>();
 
         public override bool TryInvokeMember(InvokeMemberBinder binder, object[] args, out object result)
         {
