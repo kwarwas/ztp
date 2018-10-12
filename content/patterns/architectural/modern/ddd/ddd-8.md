@@ -1,3 +1,5 @@
-## DDD
+## DDD - warstwy
 
-![DDD](./content/patterns/architectural/modern/ddd/DDD_Maintaining_Model_Integrity.png)
+![DDD Layers](./content/patterns/architectural/modern/ddd/ddd-layers.png)
+
+http://mrdev.pl/domain-driven-design-izolacja-przy-pomocy-warstw
