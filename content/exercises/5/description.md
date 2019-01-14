@@ -1,4 +1,4 @@
-## Scheduler Ultimate
+## Scheduler Node.js
 
-Wykonać implementację aplikacji, której zadaniem jest odczytanie zawartość pliku CSV, wykonanie interpretacji danych i na ich podstawie wysłanie wiadomości e-mail do odbiorców (dane z pliku CSV).
+Wykonać implementację aplikacji, która składa się z dwóch mickroserwisów. Pierwszy z nich wysyła dane niezbędne do wysłania wiadomości email, natomiast drugi odbiera wiadomości z pierwszego mikroserwisu i wysyła za pośrednictwem SMTP wiadomości email.
 
