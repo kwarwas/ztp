@@ -3,12 +3,12 @@
 - C#, .NET Framework
 - SQL
 - Interface, modules
-- LINQ, LINQ2SQL, XLINQ
+- LINQ
 - Extension Methods
-- ORM: Entity Framework, NHibernate
+- ORM: Entity Framework
 - Logging
 - Unit tests
 - Data-Driven Unit Test
 - Design Patterns
-- CRUD architecture
 - Inversion of Control (IoC), Dependency Injection (DI) 
+- Docker

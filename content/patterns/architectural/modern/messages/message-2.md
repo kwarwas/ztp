@@ -2,3 +2,4 @@
 
 - Commands
 - Events
+- Queries
